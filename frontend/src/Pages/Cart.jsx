@@ -1,10 +1,12 @@
-import React ,{useState}from "react";
-
+import React from "react";
+import CartItems from "../Components/CartItems/CartItems";
 const Cart = () => {
 
    
     return (
-       <div className="cart"></div>
+       <div className="cart">
+        <CartItems/>
+       </div>
     )
 }
 
